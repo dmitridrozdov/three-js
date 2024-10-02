@@ -17,3 +17,5 @@ light.position.set( 1, 1, 1 );
 scene.add( light );
 
 const renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
