@@ -28,5 +28,3 @@ function animate() {
 }
 
 animate();
-
-renderer.render( scene, camera );
